@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+ <head>
+   <meta charset="UTF-8"/>
+   <meta http-equiv="X-UA-Compatibe" content="IE=edge" />
+   <meta name="viewport" content="widht=device-widht, initial-scale=1.0"/>
+   <meta name="theme-color" content="#B8255F"/>
+ <link rel="stylesheet" href="RTMTT.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <h1>
+      Hola Mundo
+    </h1>
+    <h2 id="subtitulo"> Esto es un subititulo </h2>
+    <h3> Esto es otro subtitulo </h3> <p>Gracias por visitar <br/>  mi web </p>
+    <a>
+ <img src="https://www.google.com/search?sca_esv=7d380bcdbd6e9b9f&rlz=1C1ALOY_esMX933MX933&sxsrf=ACQVn0_-L6nHoUXy5pCoi47DiFRe0oWDmw:1713495206645&q=A+meme+picture&uds=AMwkrPt2v0fA1LFFf7PCydq7oNegJNKedqIjkxSfkb_r6_I3LdV6SjUQetOnGH0_ku2Jw8pFOQ7jRUAApB3Z9iXbQBipHRrr5EUUW659bk08UKoGlv0KBo5FZA9NrQXRcWf2v1r0OI4EdWOtJEwxhSnXUub1ZZh3Oeh-Fw2vghttH-CkCTvd9HwcU-GSir_0ZZI180UdFLVS7wrK0wdzJSmSmGhLt5M7mTo-n0UoEIGX39zq8qGTnir-nAP6WjeCk-RTK_IaYshhJcq61XclezZKMvM1-V5SViEkWRmmWi1tUqEMRSEuWco&udm=2&prmd=ivsnmbtz&sa=X&ved=2ahUKEwi-6_aIo82FAxViL0QIHc2zDmMQtKgLegQIDRAB&biw=1746&bih=853&dpr=1.1#vhid=piRUwGH_yyhZMM&vssid=mosaic"/>    
+ <a/>
+      <button class="activado Boton-primario" id="boton"> ¡Hazme CLick!</button>                 
+                 
+      <form action="https://submit-form.com/4B5WFLwJ">
+  <label for="Name">Escribe aqui tu nombre</label>
+  <input type="text" id="Name" name="Nombre" placeholder="Ingresa aqui tu nombre" required="" />
+  <label for="Email">Escribe aqui tu correo electronico</label>
+  <input type="email" id="Email" name="Correo electrónico" placeholder="Ingresa aqui tu correo electrónico" required="" />
+  <label for="Message">Escribe aqui abajo tu mensaje</label>
+  <textarea
+    id="Message"
+    name="message"
+    placeholder="Ingresa aqui tu mensaje "
+    required=""
+  ></textarea>
+     <input type="radio" name="opciones" />
+     <input type="radio"name="opciones" />
+     <input type="radio" name="opciones"/>  
+  <button type="submit">Enviar</button>
+</form>
+        <script src="script.js"> </script>
+</body>      
+    </html>

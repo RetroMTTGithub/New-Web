@@ -1,0 +1,77 @@
+body
+{
+ background: linear-gradient(90deg,#FFE571,#A2C612,#12C66F);
+
+font-family: 'Comic Neue', cursive;
+  font-weight:400;
+  }
+h1
+{
+color: #000000;
+  font-size: 45px;
+  font-weight: 300;
+  font-style: normal;
+  width: max-content;
+  
+  text-shadow: 12px  12px 6px #0f97ff;
+  letter-spacing:20px;
+  word-spacing:40px;
+  transform: rotate(10deg);
+  margin-top: 190px;
+}
+
+h2{
+  color:#fff00ee;
+  font-size: 12px;
+}
+  img
+{
+  width:400px;
+  border-radius:36px;
+  border-color: red;
+  border-width: 8px;
+  border-style: solid;
+  
+}
+
+.Boton-primario
+{
+  background: #4CFFA8;
+  font-size: 24px;
+  font-family: 'Comic Neue', cursive;
+  border-widht: 0;
+  border-radius: 8px;
+  padding:12px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.Boton-primario:hover
+{
+  background: #41D48D;
+  color: white;
+  
+}
+
+form
+{
+  display:flex;
+  flex-direction: column;
+  width:300px;
+  background: skyblue;
+  padding: 18px;
+  border-radius: 8px;
+}
+
+input
+{
+border:0;
+outline: none;
+border-radius: 4px;
+margin-bottom: 12px;  
+}
+
+textarea
+{
+  border:0;
+  out
